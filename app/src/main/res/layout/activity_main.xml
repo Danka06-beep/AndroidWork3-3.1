@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     android:padding="8dp">
 
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="VectorDrawableCompat" />
+
+    <RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/real_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
     <TextView
         android:id="@+id/resultField"
         android:layout_width="0dp"
@@ -21,10 +37,7 @@
         android:id="@+id/operationField"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="364dp"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/IngenerPanel"
         app:layout_constraintHorizontal_weight="1"
         app:layout_constraintLeft_toRightOf="@+id/resultField"
         app:layout_constraintRight_toRightOf="parent"
@@ -43,7 +56,7 @@
         android:id="@+id/firstButtonPanel"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="50dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/numberField">
@@ -198,7 +211,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:onClick="onClickButtonDelite"
         android:text="Delite"
         app:layout_constraintStart_toStartOf="@+id/forthButtonPanel"
@@ -227,8 +240,8 @@
 
     <FrameLayout
         android:id="@+id/IngenerPanel"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="379dp"
+        android:layout_height="189dp"
         android:layout_marginStart="5dp"
         android:layout_marginLeft="5dp"
         android:layout_marginEnd="5dp"
