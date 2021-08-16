@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidWork5-1.2</string>
+    <string name="Settings">Настройки</string>
+    <string name="change_background">Изменение фона калькулятора</string>
+    <string name="file_name">Введите имя файла</string>
+    <string name="no_access">Нету доступа</string>
+    <string name="file_not_found">Файл не найден</string>
+</resources>
